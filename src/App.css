@@ -40,3 +40,56 @@
 .read-the-docs {
   color: #888;
 }
+a {
+  color: #646cff;
+  text-decoration: none;
+  transition: color 300ms;
+}
+a:hover {
+  color: #646cffaa;
+}
+a.react {
+  color: #61dafb;
+}
+a.react:hover {
+  color: #61dafbaa;
+}
+@media (prefers-color-scheme: dark) {
+  #root {
+    color: #fff;
+    background-color: #222;
+  }
+  a {
+    color: #61dafb;
+  }
+  a:hover {
+    color: #61dafbaa;
+  }
+  .logo {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .logo.react {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .read-the-docs {
+    color: #aaa;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: #333;
+    color: #fff;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #61dafb;
+  }
+  a:hover {
+    color: #61dafbaa;
+  }
+}
